@@ -7,6 +7,8 @@ import About from './components/About';
 
 
 import {
+  // When you are going to host your website in GitHub BrowserRouter won't work. So you need to implement 
+  // HashRouter. The syntax is the same just change "BrowserRouter as Router," to "HashRouter as Router,"
   BrowserRouter as Router,
   Route,
   Routes,
